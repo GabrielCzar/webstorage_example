@@ -3,7 +3,7 @@
  */
 
 function atualizaSaudacao() {
-    var saudacao = document.getElementById("saudacao");
+    saudacao = document.getElementById("saudacao");
 
     if (localStorage.nome) {
         saudacao.innerHTML = "Olá " + localStorage.nome;
